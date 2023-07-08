@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from customers.models import Customer
 from customers.serializers import CustomerSerializer
-from django.http import Http404, JsonResponse
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
